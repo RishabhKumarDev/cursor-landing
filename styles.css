@@ -245,7 +245,6 @@ a {
   padding: 20px;
   border-radius: 5px;
   border: 1px solid #211f1a;
-
 }
 .testimonial-card img {
   height: 400px;
@@ -257,11 +256,10 @@ a {
   padding-top: 10px;
 }
 
-.testimonial-heading{
-
+.testimonial-heading {
   padding: 0 10px;
 }
-.testimonial-para{
+.testimonial-para {
   color: #9696a1;
 
   padding: 0 10px;
@@ -272,48 +270,40 @@ a {
   cursor: pointer;
 }
 
-/* USE CASES */
-.use-cases {
-  padding: 120px 0;
-}
-
-.case-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-}
-
-.case h4 {
-  margin-top: 16px;
-}
-
 /* CHANGELOG */
 .changelog {
   padding: 120px 0;
 }
 
-.changelog ul {
-  list-style: none;
-}
-
-.changelog li {
+.changelog-container {
   display: flex;
-  gap: 24px;
-  padding: 10px 0;
-  color: #b6b6c2;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-
+.changelog-card {
+  background-color: #1b1913;
+  width: 315px;
+  border-radius: 5px;
+  border: 1px solid #211f1a;
+  height: 120px;
+  padding: 10px;
+}
+.changelog-card span {
+  color: #9696a1;
+}
 /* TEAM */
 .team {
   padding: 120px 0;
 }
 
-.team-grid {
+/* .team-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 80px;
   align-items: center;
-}
+} */
 
 /* FINAL CTA */
 .final-cta {
@@ -322,13 +312,49 @@ a {
 }
 
 .final-cta h2 {
-  font-size: 40px;
+  font-size: 60px;
   margin-bottom: 32px;
+}
+
+/* ----Highlights---- */
+.highlights {
+  background-color: #1b1913;
+  padding: 80px 0;
+}
+
+.highlights-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.highlights-cards {
+  gap: 10px;
+  display: grid;
+}
+
+.highlights-card {
+  padding: 15px;
+  background-color: #201e18;
+
+  width: 615px;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid #211f1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.highlights-card:hover {
+  background-color: #2a2822a2;
+  cursor: pointer;
+}
+.highlights-card p {
+  color: #adacaaa3;
 }
 
 /* ----Footer---- */
 .footer {
-  background: #0b0b0e;
+  background: #1b1913;
   border-top: 1px solid #1c1c22;
   padding-top: 72px;
 }
