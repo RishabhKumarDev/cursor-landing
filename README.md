@@ -112,13 +112,10 @@ The color palette and contrast were chosen to closely match the original Cursor 
 ---
 
 ## 🌐 Hosting
+link
 
+[text](https://6982167351ec361d65e15cce--darling-lebkuchen-299ce9.netlify.app/)
 
-
-## 📸 Screenshots
-
-
----
 
 ## ✅ Notes
 
